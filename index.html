@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Scholarship</title>
+</head>
+<body style="background-color: powderblue;">
+	<form action="action.php" method="post" target="_blank" autocomplete="on" novalidate>
+   <h1 style="text-align: center;"> Application Details</h1>
+		
+		<label><b> NAME :</b></label> <br>
+		<label for="fname"> First name:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="mname"> Middle name:</label>
+        <input type="text" id="mname" name="mname">
+        <label for="lname"> Last name:</label>
+        <input type="text" id="lname" name="lname"> 
+        <br><br>
+        <label for="email"><b> E-mail:</b></label><br>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="phone"><b> Phone number:</b></label><br>
+        <input type="tel" id="phone" name="phone" pattern="[6-9]{1}[0-9]{9}">
+        <br><br>
+         <label><b> FATHER'S NAME :</b></label> <br>
+		<label for="fname"> First name:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="mname"> Middle name:</label>
+        <input type="text" id="mname" name="mname">
+        <label for="lname"> Last name:</label>
+        <input type="text" id="lname" name="lname"> 
+        <br><br>
+        <label for="dob"><b> Date of birth:</b></label>
+        <input type="date" id="dob" name="dob" min="1960-01-01" max="2003-03-08">
+        <br><br>
+        <fieldset>
+            <legend><b> Education:</b></legend><br>
+             <label for="cname"> Collage name:</label>
+             <input type="text" id="cname" name="cname" >
+             <br><br>
+        <label for="cgpa"> CGPA:</label>
+        <input type="number" id="lname" name="lname"> 
+        <br><br> 
+    </fieldset><br>
+    
+    <label for="income"><b> Annual income:</b></label><br>
+        <input type="range" id="income" name="income" min="0" max="300000" step="10000"> 
+        <br><br>
+    <label><b> Gender: </b></label><br> 
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male"> Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female"> Female</label><br>
+  <input type="radio" id="other" name="gender" value="other"> <label for="other"> Other</label>
+   <br><br> 
+      <label for="aadhar"><b> Upload your Aadhar:</b></label><br>
+      <input type="file" id="aadhar" name="aadhar">
+      <br><br>
+    <label for="cpassword"> Create a password:</label><br>
+    <input type="text" id="cpassword" name="cpassword"><br>
+    <label for="confirm"> Confirm password:</label><br>
+    <input type="password" id="confirm" name="confirm"><br>
+   <input type="submit" value="Confirm">
+   <input type="reset" value="Clear"> 
+   <br><br>
+    <input type="checkbox" id="cbox" name="cbox">
+   <label for="cbox"> I here by have read all the tearms and conditions </label>
+    <br>
+    </form>
+</body>
+</html>
